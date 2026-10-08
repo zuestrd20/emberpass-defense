@@ -12,7 +12,7 @@ Keyboard: Space pause, arrows select pad, 1/2/3 build, Escape deselect/cancel sk
 
 ## Development and verification
 
-`node --test engine.test.mjs` tests deterministic rules, legal victory, no-defense loss, costs, range, upgrade/sell, reward deduplication, skill cooldowns, final boss and save restoration. `node --check app.mjs` checks frontend syntax. Browser QA results are recorded in QA.md. Simulation tests are not substitutes for real UI playthroughs.
+`node --test *.test.mjs` runs 14 tests covering deterministic rules, legal victory, no-defense loss, costs, range, upgrade/sell, reward deduplication, skill cooldowns, final boss and save restoration. `node --check app.mjs` checks frontend syntax. Browser QA results are recorded in QA.md. Simulation tests are not substitutes for real UI playthroughs.
 
 ## Art and rights
 
